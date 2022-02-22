@@ -142,20 +142,42 @@
 # else:
 # 	print("The condition is false")
 
-age = 26
-if (age < 13):
-	print("You are young")
-##### elif = else if from java####
-elif(age >= 13 & age < 18):
-	print ("You are a teenager")
-else:
-	print("You are an adult")
+# age = 26
+# if (age < 13):
+# 	print("You are young")
+# ##### elif = else if from java####
+# elif(age >= 13 & age < 18):
+# 	print ("You are a teenager")
+# else:
+# 	print("You are an adult")
+#
+# if (5 > 3 and 2 > 1):
+# 	print ("Hi")
+#
+# if (5 > 3 or 2 <1):
+# 	print ("Hello")
 
-if (5 > 3 and 2 > 1):
-	print ("Hi")
 
-if (5 > 3 or 2 <1):
-	print ("Hello")
+########### For loops ######################
 
+list1 = ["apples", "grapes", "oranges", "bananas"]
+tupl = (13, 12, 15)
 
+# for item in list1:
+# 	print (item)
 
+# for item in tupl:
+# 	print(item)
+
+# for i in range(0,11) :
+# 	print(i)
+
+# for i in range(0,11,2):
+# 	print(i)
+
+# for i in range(0, 51, 5):
+# 	print (i)
+
+for i in range(0, 5):
+	for j in range(0, 3):
+		print(i * j)
