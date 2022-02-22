@@ -1,62 +1,78 @@
-# this is my first python code
-
-print("Hello world!")
-
-################################### variables#############################################
-
-# age = 20
-# sentence = "My name is Steven"
+# # this is my first python code
 #
-# print sentence
+# print("Hello world!")
 #
-# # mike = 23
-# # sarah = 21
-# # bob = 32
+# ################################### variables#############################################
 #
-# mike, sarah, bob = 23, 21, 32
+# # age = 20
+# # sentence = "My name is Steven"
+# #
+# # print sentence
+# #
+# # # mike = 23
+# # # sarah = 21
+# # # bob = 32
+# #
+# # mike, sarah, bob = 23, 21, 32
+# #
+# # print mike
+# #
+# # name, age = "Steven", 26
+# #
+# # print name
+# # print age
 #
-# print mike
+# ################################ Arithmetic operators ################################################
 #
-# name, age = "Steven", 26
+# age1 = 12
+# age2 = 18
 #
-# print name
-# print age
+# print (age1 + age2)
+#
+# print (age1 - age2)
+#
+# print(age1 * age2)
+#
+# print (age1/age2)
+#
+# print (age1 % age2)
+#
+# sent1 = "Today is a beautiful day"
+#
+# firstName = "Steven"
+# lastName = "Lacy"
+#
+# print (firstName + " " + lastName)
+#
+# # print("Hi " * 10)
+#
+# sentence = "Steven was playing basketball"
+#
+# print(sentence[0])
+#
+# print(sentence[4])
+#
+# #Splicing
+# # print(sentence[0:6])
+# print(sentence[:6])
 
-################################ Arithmetic operators ################################################
+###################### PlaceHolders ###########################
 
-age1 = 12
-age2 = 18
+name = "Jake"
 
-print (age1 + age2)
+# print(name + " is 20 years old")
 
-print (age1 - age2)
+sent = "%s is 20 years old"
 
-print(age1 * age2)
+# print(name + sent)
 
-print (age1/age2)
+print(sent % name)
 
-print (age1 % age2)
+print(sent % "bob")
 
-sent1 = "Today is a beautiful day"
+sent = "%s %s is the President of the US"
+print(sent % ("Joe", "Biden"))
 
-firstName = "Steven"
-lastName = "Lacy"
+sent = "%s is %d years old"
 
-print (firstName + " " + lastName)
-
-# print("Hi " * 10)
-
-sentence = "Steven was playing basketball"
-
-print(sentence[0])
-
-print(sentence[4])
-
-#Splicing
-# print(sentence[0:6])
-print(sentence[:6])
-
-
-
-
-
+print(sent % ("Joe", 79))
