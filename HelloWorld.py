@@ -184,9 +184,9 @@
 
 
 ############### While loops #################
+from builtins import help
 
 c = 0
-
 
 # while c < 5:
 # 	print(c)
@@ -220,28 +220,54 @@ c = 0
 # except:
 # 	print("There is something wrong with your code - please check again")
 
-def HelloWorld():
-	print("Hello World")
+# def HelloWorld():
+# 	print("Hello World")
+#
+#
+# HelloWorld()
+#
+#
+# def Greeting(name):
+# 	print("Hi " + name + "!")
+#
+#
+# Greeting("Steven")
+#
+#
+# def Add(x, y):
+# 	print (x + y)
+#
+# Add(10, 15)
+#
+# def returnAdd(x,y):
+# 	return (x +y)
+#
+# sum = returnAdd(12,34)
+#
+# print(sum)
 
+###################### Built-in Function#################
 
-HelloWorld()
+# print(abs(34))
+# print(abs(-12))  #### Absolut value!########
+#
+# bool(1)
+# bool(100)
+# bool(None)
 
+# print(dir("Hello"))
 
-def Greeting(name):
-	print("Hi " + name + "!")
+# sent = "Hello"
+# print(help(sent.upper))
+#
+# print(help(sent.splitlines))
 
+# sent = 'print("Hi")'
+# eval(sent)
+#
+# exec(sent)
 
-Greeting("Steven")
-
-
-def Add(x, y):
-	print (x + y)
-
-Add(10, 15)
-
-def returnAdd(x,y):
-	return (x +y)
-
-sum = returnAdd(12,34)
-
-print(sum)
+a = 1
+print(str(a))
+print (float(a))
+print(int(a))
