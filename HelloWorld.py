@@ -58,21 +58,53 @@
 
 ###################### PlaceHolders ###########################
 
-name = "Jake"
+# name = "Jake"
+#
+# # print(name + " is 20 years old")
+#
+# sent = "%s is 20 years old"
+#
+# # print(name + sent)
+#
+# print(sent % name)
+#
+# print(sent % "bob")
+#
+# sent = "%s %s is the President of the US"
+# print(sent % ("Joe", "Biden"))
+#
+# sent = "%s is %d years old"
+#
+# print(sent % ("Joe", 79))
 
-# print(name + " is 20 years old")
 
-sent = "%s is 20 years old"
+# ############### Lists ##################
 
-# print(name + sent)
+fruitList = ["apples", "grapes", "oranges", "bananas"]
 
-print(sent % name)
+print (fruitList[1:3])
 
-print(sent % "bob")
+fruitList.append("BlueBerries")
 
-sent = "%s %s is the President of the US"
-print(sent % ("Joe", "Biden"))
+print (fruitList)
 
-sent = "%s is %d years old"
+fruitList[0] = "Cherries"
 
-print(sent % ("Joe", 79))
+print (fruitList)
+
+del fruitList[2]
+print (fruitList)
+
+print(len(fruitList))
+
+fruitList2 = ["kiwi", "pineapple", "guava"]
+
+print(fruitList + fruitList2)
+
+print(fruitList2 * 2)
+
+listNum = [1, 4, 7, 23, 6]
+
+print(max(listNum))
+
+print(min(listNum))
