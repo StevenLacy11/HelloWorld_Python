@@ -80,31 +80,49 @@
 
 # ############### Lists ##################
 
-fruitList = ["apples", "grapes", "oranges", "bananas"]
+# fruitList = ["apples", "grapes", "oranges", "bananas"]
+#
+# print (fruitList[1:3])
+#
+# fruitList.append("BlueBerries")
+#
+# print (fruitList)
+#
+# fruitList[0] = "Cherries"
+#
+# print (fruitList)
+#
+# del fruitList[2]
+# print (fruitList)
+#
+# print(len(fruitList))
+#
+# fruitList2 = ["kiwi", "pineapple", "guava"]
+#
+# print(fruitList + fruitList2)
+#
+# print(fruitList2 * 2)
+#
+# listNum = [1, 4, 7, 23, 6]
+#
+# print(max(listNum))
+#
+# print(min(listNum))
 
-print (fruitList[1:3])
+######################Dictonary #####################
 
-fruitList.append("BlueBerries")
+# students = ["bob", 21, "Rachel", 31, "emily", 51]
 
-print (fruitList)
+students = {"bob": 21, "Rachel": 31, "emily": 51}
 
-fruitList[0] = "Cherries"
+print(students)
 
-print (fruitList)
+print(students["bob"])
 
-del fruitList[2]
-print (fruitList)
+students["Rachel"] = 23
 
-print(len(fruitList))
+print students["Rachel"]
 
-fruitList2 = ["kiwi", "pineapple", "guava"]
-
-print(fruitList + fruitList2)
-
-print(fruitList2 * 2)
-
-listNum = [1, 4, 7, 23, 6]
-
-print(max(listNum))
-
-print(min(listNum))
+del students["emily"]
+print students
+print len(students)
