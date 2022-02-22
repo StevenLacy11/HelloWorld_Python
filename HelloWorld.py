@@ -112,17 +112,23 @@
 ######################Dictonary #####################
 
 # students = ["bob", 21, "Rachel", 31, "emily", 51]
+#
+# students = {"bob": 21, "Rachel": 31, "emily": 51}
+#
+# print(students)
+#
+# print(students["bob"])
+#
+# students["Rachel"] = 23
+#
+# print students["Rachel"]
+#
+# del students["emily"]
+# print students
+# print len(students)
 
-students = {"bob": 21, "Rachel": 31, "emily": 51}
 
-print(students)
+################# Tuples #########################
+######### Can not change a tuple (CONST)
+tup = ('oranges', 'apples', 'bananas')
 
-print(students["bob"])
-
-students["Rachel"] = 23
-
-print students["Rachel"]
-
-del students["emily"]
-print students
-print len(students)
