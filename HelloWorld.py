@@ -159,9 +159,9 @@
 
 
 ########### For loops ######################
-
-list1 = ["apples", "grapes", "oranges", "bananas"]
-tupl = (13, 12, 15)
+#
+# list1 = ["apples", "grapes", "oranges", "bananas"]
+# tupl = (13, 12, 15)
 
 # for item in list1:
 # 	print (item)
@@ -178,6 +178,34 @@ tupl = (13, 12, 15)
 # for i in range(0, 51, 5):
 # 	print (i)
 
-for i in range(0, 5):
-	for j in range(0, 3):
-		print(i * j)
+# for i in range(0, 5):
+# 	for j in range(0, 3):
+# 		print(i * j)
+
+
+############### While loops #################
+
+c = 0
+
+# while c < 5:
+# 	print(c)
+# 	c = c + 1
+
+# while c < 5:
+# 	print (c)
+#
+# 	if c == 3:
+# 		break
+# 	c = c + 1
+
+# while c < 5:
+# 	c = c + 1
+# 	if c == 3:
+# 		continue
+# 	print(c)
+
+while c < 5:
+	c = c + 1
+	if c == 3:
+		pass    ### filler statment to hold an empty line
+	print(c)
