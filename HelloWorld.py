@@ -183,10 +183,10 @@
 # 		print(i * j)
 
 
-############### While loops #################
-from builtins import help
+# ############### While loops #################
+#
+# c = 0
 
-c = 0
 
 # while c < 5:
 # 	print(c)
@@ -266,8 +266,50 @@ c = 0
 # eval(sent)
 #
 # exec(sent)
+#
+# a = 1
+# print(str(a))
+# print (float(a))
+# print(int(a))
 
-a = 1
-print(str(a))
-print (float(a))
-print(int(a))
+
+################# OOP######################
+#
+class Person:
+	pass
+
+
+p = Person()
+
+
+#
+#
+# class Person:
+# 	def getName(self):
+# 		print("Steven")
+#
+# 	def getAge(self):
+# 		print("26")
+#
+#
+# p = Person()
+# print(p.getName())
+# print(p.getAge())
+
+
+class Person:
+	def __init__(self, name, age):
+		self.name = name
+		self.age = age
+
+	def getName(self):
+		print("Your name is " + self.name)
+
+	def getAge(self):
+		print("Your age is " + self.age)
+
+
+p1 = Person("Bob", "22")
+print(p1.getName())
+print(p1.getAge())
+
