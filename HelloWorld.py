@@ -204,8 +204,18 @@ c = 0
 # 		continue
 # 	print(c)
 
-while c < 5:
-	c = c + 1
-	if c == 3:
-		pass    ### filler statment to hold an empty line
-	print(c)
+# while c < 5:
+# 	c = c + 1
+# 	if c == 3:
+# 		pass    ### filler statment to hold an empty line
+# 	print(c)
+
+
+############## Try and Except##################
+
+try:
+	if name > 3:
+		print("Hello")
+except:
+	print("There is something wrong with your code - please check again")
+
