@@ -187,6 +187,7 @@
 
 c = 0
 
+
 # while c < 5:
 # 	print(c)
 # 	c = c + 1
@@ -213,9 +214,34 @@ c = 0
 
 ############## Try and Except##################
 
-try:
-	if name > 3:
-		print("Hello")
-except:
-	print("There is something wrong with your code - please check again")
+# try:
+# 	if name > 3:
+# 		print("Hello")
+# except:
+# 	print("There is something wrong with your code - please check again")
 
+def HelloWorld():
+	print("Hello World")
+
+
+HelloWorld()
+
+
+def Greeting(name):
+	print("Hi " + name + "!")
+
+
+Greeting("Steven")
+
+
+def Add(x, y):
+	print (x + y)
+
+Add(10, 15)
+
+def returnAdd(x,y):
+	return (x +y)
+
+sum = returnAdd(12,34)
+
+print(sum)
