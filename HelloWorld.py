@@ -274,42 +274,93 @@
 
 
 ################# OOP######################
-#
-class Person:
-	pass
-
-
-p = Person()
-
-
-#
-#
+# #
 # class Person:
-# 	def getName(self):
-# 		print("Steven")
-#
-# 	def getAge(self):
-# 		print("26")
+# 	pass
 #
 #
 # p = Person()
-# print(p.getName())
-# print(p.getAge())
+#
+#
+# #
+# #
+# # class Person:
+# # 	def getName(self):
+# # 		print("Steven")
+# #
+# # 	def getAge(self):
+# # 		print("26")
+# #
+# #
+# # p = Person()
+# # print(p.getName())
+# # print(p.getAge())
+#
+#
+# class Person:
+# 	def __init__(self, name, age):
+# 		self.name = name
+# 		self.age = age
+#
+# 	def getName(self):
+# 		print("Your name is " + self.name)
+#
+# 	def getAge(self):
+# 		print("Your age is " + self.age)
+#
+#
+# p1 = Person("Bob", "22")
+# print(p1.getName())
+# print(p1.getAge())
+
+############## Inheritance ##############################
+
+class Parent:
+
+	def __init__(self):
+		print("This is the Parent class")
+
+	def parentFunc(self):
+		print("This is the parent function")
+
+p = Parent()
+
+p.parentFunc()
+
+class Child(Parent):
+
+	def __init__(self):
+
+		print("This is the child class")
+
+	def childFunc(self):
+		print("This is the child function")
+
+c = Child()
+
+c.childFunc()
+
+c.parentFunc()
+
+class Parent:
+	def __init__(self):
+		pass
+
+	def test(self):
+		print("parent")
+p = Parent()
+p.test()
+
+class Child(Parent):
+	def __init__(self):
+		pass
+	def test(self):
+		print("child")
+
+c = Child()
+c.test()
 
 
-class Person:
-	def __init__(self, name, age):
-		self.name = name
-		self.age = age
-
-	def getName(self):
-		print("Your name is " + self.name)
-
-	def getAge(self):
-		print("Your age is " + self.age)
 
 
-p1 = Person("Bob", "22")
-print(p1.getName())
-print(p1.getAge())
 
