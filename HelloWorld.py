@@ -129,6 +129,33 @@
 
 
 ################# Tuples #########################
-######### Can not change a tuple (CONST)
-tup = ('oranges', 'apples', 'bananas')
+######### Can not change a tuple (CONST)#############
+# tup = ('oranges', 'apples', 'bananas')
+
+####################Conditionals############################
+
+# if(5 >3):
+# 	print ("Hello")
+
+# if (3 < 2):
+# 	print("Hello")
+# else:
+# 	print("The condition is false")
+
+age = 26
+if (age < 13):
+	print("You are young")
+##### elif = else if from java####
+elif(age >= 13 & age < 18):
+	print ("You are a teenager")
+else:
+	print("You are an adult")
+
+if (5 > 3 and 2 > 1):
+	print ("Hi")
+
+if (5 > 3 or 2 <1):
+	print ("Hello")
+
+
 
