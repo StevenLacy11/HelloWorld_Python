@@ -367,3 +367,5 @@ class Child(Parent):
 
 c = Child()
 c.test()
+
+print("HELLO")
