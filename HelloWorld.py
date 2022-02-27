@@ -69,12 +69,12 @@
 # print(sent % name)
 #
 # print(sent % "bob")
-#
+# #
 # sent = "%s %s is the President of the US"
 # print(sent % ("Joe", "Biden"))
-#
+# #
 # sent = "%s is %d years old"
-#
+# #
 # print(sent % ("Joe", 79))
 
 
@@ -114,14 +114,15 @@
 # students = ["bob", 21, "Rachel", 31, "emily", 51]
 #
 # students = {"bob": 21, "Rachel": 31, "emily": 51}
+# #
 #
 # print(students)
 #
 # print(students["bob"])
 #
 # students["Rachel"] = 23
-#
-# print students["Rachel"]
+# #
+# print (students["Rachel"])
 #
 # del students["emily"]
 # print students
@@ -150,7 +151,7 @@
 # 	print ("You are a teenager")
 # else:
 # 	print("You are an adult")
-#
+
 # if (5 > 3 and 2 > 1):
 # 	print ("Hi")
 #
@@ -169,12 +170,12 @@
 # for item in tupl:
 # 	print(item)
 
-# for i in range(0,11) :
+# for i in range(50,0,-5):
 # 	print(i)
 
 # for i in range(0,11,2):
 # 	print(i)
-
+#
 # for i in range(0, 51, 5):
 # 	print (i)
 
@@ -186,15 +187,15 @@
 # ############### While loops #################
 #
 # c = 0
-
-
+#
+#
 # while c < 5:
 # 	print(c)
 # 	c = c + 1
-
+#
 # while c < 5:
 # 	print (c)
-#
+# #
 # 	if c == 3:
 # 		break
 # 	c = c + 1
@@ -208,7 +209,7 @@
 # while c < 5:
 # 	c = c + 1
 # 	if c == 3:
-# 		pass    ### filler statment to hold an empty line
+# 		pass    ### filler statement to hold an empty line
 # 	print(c)
 
 
@@ -256,12 +257,12 @@
 # bool(None)
 
 # print(dir("Hello"))
-
+#
 # sent = "Hello"
 # print(help(sent.upper))
 #
 # print(help(sent.splitlines))
-
+#
 # sent = 'print("Hi")'
 # eval(sent)
 #
