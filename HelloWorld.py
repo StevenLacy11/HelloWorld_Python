@@ -323,18 +323,20 @@ class Parent:
 	def parentFunc(self):
 		print("This is the parent function")
 
+
 p = Parent()
 
 p.parentFunc()
 
+
 class Child(Parent):
 
 	def __init__(self):
-
 		print("This is the child class")
 
 	def childFunc(self):
 		print("This is the child function")
+
 
 c = Child()
 
@@ -342,25 +344,26 @@ c.childFunc()
 
 c.parentFunc()
 
+
 class Parent:
 	def __init__(self):
 		pass
 
 	def test(self):
 		print("parent")
+
+
 p = Parent()
 p.test()
+
 
 class Child(Parent):
 	def __init__(self):
 		pass
+
 	def test(self):
 		print("child")
 
+
 c = Child()
 c.test()
-
-
-
-
-
